@@ -1,0 +1,388 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-gn {
+    background-color: #E4E4E4;
+}
+
+/*--colors--*/
+.bg-g {
+    background-color: #142652;
+}
+.bg-tb{
+    background-color: #354F8C;
+}
+.bg-gr{
+    background-color: #A2BA28;
+}
+.bg-gd{
+    background-color: #76881E;
+}
+.bg-ts{
+    background-color: #213E81;
+}
+.bg-sh{
+    background-color: #1E3B7F;
+}
+/*--Sombra--*/
+.sh {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.19);
+}
+/*--w-screen--*/
+.w-screen{
+    background: #e4e4e4 url('../ima/smarth.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 85% 100%;
+}
+/*--border--*/
+.born {
+    border-radius: 0px;
+}
+.bor-ta{
+    border-radius: 8px;
+}
+/*--Margins--*/
+.my-mid {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.mx-6 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.nm {
+    margin: 0 !important;
+}
+
+/*---padding--*/
+.pb-8 {
+    padding-bottom: 70px;
+}
+
+.pb-8b {
+    padding-bottom: 70px;
+}
+
+.np {
+
+    padding: 0 !important;
+}
+.psch-5{
+    padding: 48px 48px 0px 48px;
+}
+
+/*---Text- body- css--*/
+.bt {
+    color: #1E3B80 !important;
+    font-size: 20px;
+    display: block;
+}
+
+.bb {
+    color: #A2BA28 !important;
+    font-weight: bold;
+}
+.red-c{
+    color: crimson !important;
+    font-size: 15px;
+}
+.ta-t{
+    font-weight: bold !important;
+    font-size: 13px;
+}
+/*---Selected style---*/
+.stl {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 18px 12px 18px;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+/*--fuentes--*/
+.fbc {
+    font-size: 25px;
+}
+.mt-1{
+    display: block;
+    color: #1E3B80 !important;
+    font-size: 17px;
+}
+.mt-2{
+    color: #A2BA28 !important;
+    font-size: 17px;
+}
+.es-1{
+    display: block;
+    color: #1E3B80 !important;
+    font-size: 15px;
+}
+.es-2{
+    color: #A2BA28 !important;
+    font-size: 15px;
+}
+.ti-f{
+    font-size: 16px;
+    color: rgb(94, 94, 94) !important;
+}
+/*--align--*/
+.cm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*--Input--*/
+.inc{
+    text-align: center;
+    background-color: #354F8C;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.inc-b{
+    text-align: center;
+    color: rgb(78, 78, 78);
+    border-radius: 5px;
+    border: 0px;
+}
+.inc-sr{
+    text-align: center;
+    color: rgb(78, 78, 78);
+    border-radius: 2px;
+    border: 0px;
+}
+.sc{
+    background-color: #E4E4E4;
+    border: 0px ;
+    color: rgb(95, 95, 95);
+}
+/*---width custom---*/
+.w-40 {
+    width: 40% !important;
+}
+.w-ad{
+    width: 65% ;
+}
+.w-usu{
+    width: 90%;
+}
+.w-inpn{
+    width: 32%;
+}
+.t-img{
+    width: 50px;
+}
+.sm-img{
+    width: 30px;
+}
+.qr-w{
+    width: auto;
+    height: 300px;
+}
+#preview {
+    width: 100%;
+    height: auto;
+}
+/*--Display--*/
+.d-none{
+    display: none;
+}
+/*--buttons-*/
+.bc{
+    padding: 0;
+    border: none;
+    background: none;
+}
+.btn-src{
+    padding: 0px 60px 0px 60px;
+    font-weight: bold;
+    color: rgb(228, 228, 228);
+    background-color: #1248BE;
+}
+.btn-src:hover{
+    color: white;
+    
+}
+.btn-ok{
+    background-color: #A2BA28;
+    color: rgb(223, 223, 223);
+}
+.btn-ok:hover{
+    color: rgb(255, 255, 255);
+}
+/*---Label--*/
+.lb-t{
+    color: white;
+    font-weight: bold;
+}
+.lb-sch{
+    color: white;
+    width: 100%;
+    background-color: #142652;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*--Tarjetas--*/
+.tar-b{
+    color: white !important;
+    font-weight: bold;
+    font-size: 15px;
+}
+.tar-b input{
+    background-color: #76881E;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+/*---Media---*/
+@media (max-width: 575.98px) {
+    .w-screen{
+        background: none;
+    }
+    .w-40 {
+        width: 90%;
+    }
+    .w-inpn{
+        width: 100%;
+    }
+    .w-usu{
+        width: 100%;
+    }
+    .ip-sch{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .pb-8b {
+        padding-bottom: 40px;
+    }
+    .d-none{
+        display: block !important;
+    }
+    .mx-6 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .cm {
+        position: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+        left: 00%;
+        top: 0%;
+        transform: translate(-00%, -00%);
+    }
+    .lb-t{
+        padding: 10px !important;
+        font-size: 15px;
+    }
+    .m-sch{
+        margin-bottom: 20px;
+    }
+    /*---*/
+    .w-ad {
+        width: 90%;
+    }
+    .w-sch{
+        width: 90%;
+    }
+    .p-sch{
+        padding: 15px !important;
+        font-size: 12px;
+    }
+    .ti-sch{
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .w-screen{
+        background: none;
+    }
+    .w-40 {
+        width: 90%;
+    }
+    .w-inpn{
+        width: 100%;
+    }
+    .w-usu{
+        width: 100%;
+    }
+    .d-none{
+        display: block !important;
+    }
+    .mx-6 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .cm {
+        position: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+        left: 00%;
+        top: 0%;
+        transform: translate(-00%, -00%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .w-screen{
+        background-size: 85% 60%;
+    }
+    .w-40 {
+        width: 70%;
+    }
+    .w-inpn{
+        width: 100%;
+    }
+    .w-usu{
+        width: 100%;
+    }
+    .mx-6 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .wc{
+        padding: 75px;
+        margin: 0px !important;
+        width: 45% !important;
+    }
+    .cm {
+        position: inherit;
+        margin-top: 50px;
+        margin-bottom: 50px !important;
+        left: 00%;
+        top: 0%;
+        transform: translate(-00%, -00%);
+    }
+
+    /*---*/
+    .w-ad {
+        width: 70%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .w-screen{
+        background-size: 85% 60%;
+    }
+    .w-inpn{
+        width: 30%;
+        font-size: 14px;
+    }
+    .num{
+        font-size: 10px;
+    }
+    .w-usu{
+        width: 100%;
+        font-size: 10px;
+    }
+}
